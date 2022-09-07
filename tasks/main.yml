@@ -1,5 +1,11 @@
 # tasks file
 ---
+- ansible.builtin.include: version-support.yml
+  tags:
+    - configuration
+    - percona-toolkit
+    - percona-toolkit-repo-version-support
+
 - ansible.builtin.include: repository.yml
   tags:
     - configuration
