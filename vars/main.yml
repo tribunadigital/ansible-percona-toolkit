@@ -30,3 +30,6 @@ percona_toolkit_repositories: "{{ percona_toolkit_repositories_8 if percona_tool
 
 percona_toolkit_dependencies:
   - percona-toolkit
+
+percona_toolkit_asc_key: 'https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x4d1bb29d63d98e422b2113b19334a25f8507efa5'
+percona_toolkit_asc_path: '/etc/apt/keyrings/percona.asc'
